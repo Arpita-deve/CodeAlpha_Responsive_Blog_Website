@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu&display=swap');
+:root{
+    --main-bg-color:brown;
+    --font1:'Roboto', sans-serif;
+    --font2:'Ubuntu', sans-serif;
+}
+.font1{
+    font-family: var(--font1);
+}
+.font2{
+    font-family: var(--font2);
+}
+.max-width-1{
+    max-width: 80vw;
+}
+.max-width-2{
+    max-width: 60vw;
+}
+.m-auto{
+    margin: auto;
+}
+.form-input{
+    padding: 3px 4px;
+    border: 2px solid black;
+    font-size: 15px;
+    border-radius: 50px;
+    margin: 0 6px;
+    font-family: var(--font1);
+}
+.btn{
+    padding: 4px 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+.btn:hover{
+    color: white;
+    background-color: var(--main-bg-color);
+}
+.btns{
+    padding: 10px 25px;
+    border-radius:10px ;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.mailid{
+    border: 2px solid black;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-left: 4px;
+}
+.paswd{
+    border: 2px solid black;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-left: 4px;
+
+}

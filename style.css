@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.navigation {
+    font-family: var(--font1);
+    height: 50px;
+    /*background-color: #17252a;
+    background-image: url(nav.jpg);*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:black;
+}
+
+.nav-left {
+    font-size: 20px;
+    display: flex;
+}
+
+.nav-left ul {
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+    font-size: 17px;
+
+}
+
+.nav-left ul li {
+    list-style: none;
+    margin: 0 14px;
+    font-family: var(--font2);
+    
+}
+
+.nav-left ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-left ul li a:hover {
+    color: #ec9759;
+}
+
+.content-right img {
+    height: 250px;
+    margin-top: 20px;
+    margin-left: 180px;
+    border: 2px solid black;
+    border-radius: 100px;
+}
+
+.content-right {
+    width: 50%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-left {
+    font-family: var(--font1);
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+    margin-bottom: 30px;
+}
+.start{
+    margin-top: 20px;
+}
+.content {
+    height: 350px;
+    /*background-color: #2b7a78;
+    background-image: url(back-content.jpg);*/
+    display: flex;
+}
+
+.home-articles {
+    /*height: 455px;*/
+    /*background-color: #d9dbf1;
+    background-image: url(download.jpeg);*/
+    padding: 5px;
+    margin-top: 20px;
+}
+.home-article{
+    display: flex;
+    padding: 10px;
+    margin: 0px;
+}
+.home-article-content a{
+    text-decoration: none;
+    color: rgb(77, 6, 77);
+}
+.home-article-img img{
+    width: 150px;
+}
+.home-article-content{
+    align-self: center;
+    padding: 25px ;
+}
+.sign{
+    padding: 10px 10px;
+    margin: 10px 10px;
+}
+.pass{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.footer {
+    height: 20px;
+    background-color: #def2f1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer a {
+    color: black;
+}
